@@ -6,9 +6,8 @@ import java.util.*;
 //Case2: Display today’s date.
 //Case3: Split the following string and store it in a sting array. “I am learning Core Java
 public class Q14 {
-	public static void main(String[] args) {
-		int selection = 3;
-		double sqrt = 64;
+	public void function(int selection, double sqrt) {
+		//double sqrt = 64;
 		Date date = new Date();
 		String str = "I am learning Core Java";
 		String[] array = new String[5];

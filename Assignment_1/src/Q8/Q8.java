@@ -1,6 +1,7 @@
 package Q8;
 
 import java.util.ArrayList;
+//HAD PROBLEMS WRITING JUNIT TEST CLASS AS COULDN'T ADD TO ARRAYLIST WITHIN THE TEST CLASS
 
 //Write  a  program  that  stores  the  following  strings  in  an  ArrayList  and  saves  all  the palindromes in another ArrayList.
 //“karan”, “madam”,”tom”, “civic”, “radar”, “sexes”, “jimmy”, “kayak”, “john”,  “refer”, “billy”, “did”

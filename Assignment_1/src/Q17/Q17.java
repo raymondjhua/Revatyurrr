@@ -13,7 +13,11 @@ public class Q17 {
 		System.out.println("What is your rate of interest in %:");
 		double roi = scanner.nextDouble()/100.00;
 		System.out.println("What is your number of years:");
-		int years = scanner.nextInt();
+		double years = scanner.nextDouble();
 		System.out.println("Your interest is: " + principal*roi*years);
+	}
+	public double function(double principal, double roi, double years) {
+		System.out.println(principal *roi * years);
+		return (principal*roi*years);
 	}
 }

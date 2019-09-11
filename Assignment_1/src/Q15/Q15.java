@@ -6,26 +6,17 @@ two operands in a test class having a main method that calls the implementing cl
 */
 
 public class Q15 implements mathStuff{
-	public static void main(String[] args) {
-		int x = 1;
-		int y = 2;
-		
-		addition(x, y);
-		subtraction(x, y);
-		multiplication(x, y);
-		division(x, y);
+	public int addition(int x, int y) {
+		return x + y;
 	}
-	public static void addition(int x, int y) {
-		System.out.println(x + y);
+	public int subtraction(int x, int y) {
+		return x - y;
 	}
-	public static void subtraction(int x, int y) {
-		System.out.println(x - y);
+	public int multiplication(int x, int y) {
+		return x * y;
 	}
-	public static void multiplication(int x, int y) {
-		System.out.println(x * y);
-	}
-	public static void division(int x, int y) {
-		System.out.println(x / y);
+	public int division(int x, int y) {
+		return x / y;
 	}	
 }
 

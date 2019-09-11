@@ -8,11 +8,11 @@ public class Q10 {
 		 			return x > 0 ? "X is greater than 0" : "X is less than 0";
 		 		}
 		*/
-		min(1 , 2);
+		System.out.println(min(1 , 2));
 		
 	}
 	
-	public static void min(int x, int y) {
-		System.out.println((x < y ? x : y));
+	public static int min(int x, int y) {
+		return (x < y ? x : y);
 	}
 }
